@@ -15,7 +15,7 @@ app.use(cookieParser());
 app.use(cors({
     origin: [
         process.env.CLIENT_URL,
-        'https://sreehari-project.vercel.app',
+        'https://kerala-mood-project-testing.vercel.app',
         'http://localhost:5173'
     ].filter(Boolean),
     credentials: true
